@@ -7,6 +7,7 @@ import torch
 from models.proposed_model import Proposed_model
 import os
 from facenet_pytorch import MTCNN
+from pathlib import Path
 
 class image_model:
     def __init__(self):
@@ -14,7 +15,10 @@ class image_model:
         self.mtcnn = MTCNN(keep_all=False, post_process=False, min_face_size=60, device=self.device)
         self.image_size = 384
 
-        checkpoint_path = 'weights\proposed_model.pth'
+        # Resolve paths relative to backend/ so launching from any cwd works.
+        self.base_dir = Path(__file__).resolve().parents[1]
+
+        checkpoint_path = self.base_dir / 'weights' / 'proposed_model.pth'
     
         if not os.path.exists(checkpoint_path):
             raise FileNotFoundError(f"Checkpoint file not found: {checkpoint_path}")
@@ -74,7 +78,7 @@ class image_model:
         output = "Real" if prediction.argmax().item() == 0 else "Fake"
         
         timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-        output_dir = 'output/image'
+        output_dir = self.base_dir / 'output' / 'image'
         os.makedirs(output_dir, exist_ok=True)
         file_path = os.path.join(output_dir, f'run_{timestamp}__{output}.png')
         

@@ -5,6 +5,8 @@ from langchain_groq import ChatGroq
 from langchain_core.output_parsers import StrOutputParser
 import assemblyai as aai
 import os
+from datetime import datetime
+import shutil
 from logs.audio_logging import audio_logger
 
 logger = audio_logger().get_logger()
@@ -13,7 +15,8 @@ class audio_model():
     def __init__(self, api_key, audio_key):
         self.api_key = api_key
         self.parser = StrOutputParser()
-        self.model = ChatGroq(model='llama3-70b-8192', api_key=self.api_key)
+        # Use an active Groq model; llama3-70b-8192 is decommissioned.
+        self.model = ChatGroq(model='llama-3.1-8b-instant', api_key=self.api_key)
         aai.settings.api_key = audio_key
         self.transcriber = aai.Transcriber()
         self.response = None  
@@ -31,7 +34,8 @@ class audio_model():
             self.data = self.load_text.load_data()
             self.folder_path = getattr(self.load_text, 'folder_path', 'output/audio')
             self.audio_file = os.path.join(self.folder_path, 'audio_query.mp3')
-            self.timestamp = self.load_text.timestamp
+            raw_timestamp = getattr(self.load_text, 'timestamp', datetime.now())
+            self.timestamp = raw_timestamp.strftime('%Y%m%d_%H%M%S') if hasattr(raw_timestamp, 'strftime') else datetime.now().strftime('%Y%m%d_%H%M%S')
         except Exception as e:
             logger.warning(f"Loading audio data failed: {e}")
             self.response = "Audio data load failed"
@@ -39,8 +43,11 @@ class audio_model():
 
         try:
             os.makedirs(self.folder_path, exist_ok=True)
-            with open(self.audio_file, 'wb') as f:
-                f.write(query.read())
+            if isinstance(query, str) and os.path.exists(query):
+                shutil.copyfile(query, self.audio_file)
+            elif hasattr(query, 'read'):
+                with open(self.audio_file, 'wb') as f:
+                    f.write(query.read())
         except Exception as e:
             logger.warning(f"Cannot open/write file: {e}")
 

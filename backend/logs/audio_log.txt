@@ -73,3 +73,15 @@
 2025-08-18 22:26:54,158 - WARNING - [Errno 22] Invalid argument: 'output/audio\\run_2025-08-18 22:26:52.429546_result.txt'
 2025-08-18 22:31:48,313 - WARNING - Preprocessing failed: 'text_preprocessing' object has no attribute 'folder_path'
 2025-08-18 22:31:48,886 - WARNING - Saving result failed: [Errno 22] Invalid argument: 'output/audio\\run_2025-08-18 22:31:46.426193_result.txt'
+2026-03-29 17:03:53,455 - WARNING - Cannot open/write file: 'str' object has no attribute 'read'
+2026-03-29 17:03:53,455 - WARNING - Preprocessing failed: 'text_preprocessing' object has no attribute 'folder_path'
+2026-03-29 17:03:53,572 - WARNING - Model invocation failed: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-29 17:03:53,588 - WARNING - Saving result failed: [Errno 22] Invalid argument: 'output/audio\\run_2026-03-29 17:03:52.920974_result.txt'
+2026-03-29 17:05:19,674 - WARNING - Cannot open/write file: 'str' object has no attribute 'read'
+2026-03-29 17:05:19,674 - WARNING - Preprocessing failed: 'text_preprocessing' object has no attribute 'folder_path'
+2026-03-29 17:05:19,774 - WARNING - Model invocation failed: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-29 17:05:19,774 - WARNING - Saving result failed: [Errno 22] Invalid argument: 'output/audio\\run_2026-03-29 17:05:19.158182_result.txt'
+2026-03-29 17:06:35,028 - WARNING - Transcription failed: Failed to upload audio file: 
+Reason: Upload failed, please try again. If you continue to have issues please reach out to support@assemblyai.com
+
+Request: <Request('POST', 'https://api.assemblyai.com/v2/upload')>
