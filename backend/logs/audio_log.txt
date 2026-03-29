@@ -1,0 +1,75 @@
+2025-08-18 21:13:52,818 - WARNING - 'audio_data' object has no attribute 'folder_path'
+2025-08-18 21:13:52,867 - WARNING - 'text_preprocessing' object has no attribute 'folder_path'
+2025-08-18 21:13:52,868 - WARNING - 'audio_model' object has no attribute 'cleaned'
+2025-08-18 21:17:20,054 - WARNING - 'audio_data' object has no attribute 'folder_path'
+2025-08-18 21:17:20,059 - WARNING - 'text_preprocessing' object has no attribute 'folder_path'
+2025-08-18 21:17:20,060 - WARNING - 'audio_model' object has no attribute 'cleaned'
+2025-08-18 21:19:06,287 - WARNING - 'audio_data' object has no attribute 'timestamp'
+2025-08-18 21:19:06,289 - WARNING - 'text_preprocessing' object has no attribute 'folder_path'
+2025-08-18 21:19:06,290 - WARNING - 'audio_model' object has no attribute 'cleaned'
+2025-08-18 21:20:45,997 - WARNING - 'text_preprocessing' object has no attribute 'folder_path'
+2025-08-18 21:20:45,997 - WARNING - 'audio_model' object has no attribute 'cleaned'
+2025-08-18 21:20:45,998 - WARNING - [Errno 22] Invalid argument: 'output/audio\\run_2025-08-18 21:20:44.187338_result.txt'
+2025-08-18 21:22:59,929 - WARNING - 'text_preprocessing' object has no attribute 'folder_path'
+2025-08-18 21:22:59,929 - WARNING - 'audio_model' object has no attribute 'cleaned'
+2025-08-18 21:22:59,930 - WARNING - [Errno 22] Invalid argument: 'output/audio\\run_2025-08-18 21:22:57.773652_result.txt'
+2025-08-18 21:25:05,254 - WARNING - 'text_preprocessing' object has no attribute 'folder_path'
+2025-08-18 21:25:05,255 - WARNING - 'audio_model' object has no attribute 'cleaned'
+2025-08-18 21:25:05,255 - WARNING - [Errno 22] Invalid argument: 'output/audio\\run_2025-08-18 21:25:03.391934_result.txt'
+2025-08-18 21:26:32,579 - WARNING - 'text_preprocessing' object has no attribute 'folder_path'hi the error is here
+2025-08-18 21:26:32,580 - WARNING - 'audio_model' object has no attribute 'cleaned'
+2025-08-18 21:26:32,580 - WARNING - [Errno 22] Invalid argument: 'output/audio\\run_2025-08-18 21:26:30.803511_result.txt'
+2025-08-18 21:37:20,671 - WARNING - 'str' object has no attribute 'text'
+2025-08-18 21:37:20,683 - WARNING - 'audio_model' object has no attribute 'load_text'hi the error is here
+2025-08-18 21:37:20,685 - WARNING - 'audio_model' object has no attribute 'cleaned'
+2025-08-18 21:47:11,237 - WARNING - hi error
+2025-08-18 21:47:11,237 - WARNING - 'text_preprocessing' object has no attribute 'folder_path'hi the error is here
+2025-08-18 21:47:11,238 - WARNING - 'audio_model' object has no attribute 'cleaned'
+2025-08-18 21:47:11,239 - WARNING - [Errno 22] Invalid argument: 'output/audio\\run_2025-08-18 21:47:08.929533_result.txt'
+2025-08-18 21:48:49,526 - WARNING - hi error
+2025-08-18 21:48:49,526 - WARNING - 'text_preprocessing' object has no attribute 'folder_path'hi the error is here
+2025-08-18 21:48:49,527 - WARNING - 'audio_model' object has no attribute 'cleaned'
+2025-08-18 21:48:49,528 - WARNING - [Errno 22] Invalid argument: 'output/audio\\run_2025-08-18 21:48:47.499409_result.txt'
+2025-08-18 21:51:27,745 - WARNING - hi error
+2025-08-18 21:51:27,745 - WARNING - 'text_preprocessing' object has no attribute 'folder_path'hi the error is here
+2025-08-18 21:51:27,746 - WARNING - 'audio_model' object has no attribute 'cleaned'
+2025-08-18 21:51:27,747 - WARNING - [Errno 22] Invalid argument: 'output/audio\\run_2025-08-18 21:51:25.575348_result.txt'
+2025-08-18 21:52:57,011 - WARNING - hi error
+2025-08-18 21:52:57,011 - WARNING - 'text_preprocessing' object has no attribute 'folder_path'hi the error is here
+2025-08-18 21:52:57,012 - WARNING - 'audio_model' object has no attribute 'cleaned'
+2025-08-18 21:52:57,012 - WARNING - [Errno 22] Invalid argument: 'output/audio\\run_2025-08-18 21:52:55.073494_result.txt'
+2025-08-18 21:54:53,752 - WARNING - hi error
+2025-08-18 21:54:53,753 - WARNING - 'text_preprocessing' object has no attribute 'folder_path'hi the error is here
+2025-08-18 21:54:53,754 - WARNING - 'audio_model' object has no attribute 'cleaned'
+2025-08-18 21:54:53,755 - WARNING - [Errno 22] Invalid argument: 'output/audio\\run_2025-08-18 21:54:51.090385_result.txt'
+2025-08-18 21:59:09,759 - WARNING - hi error
+2025-08-18 21:59:09,759 - WARNING - 'text_preprocessing' object has no attribute 'folder_path'hi the error is here
+2025-08-18 21:59:09,762 - WARNING - 'audio_model' object has no attribute 'cleaned'
+2025-08-18 22:05:23,401 - WARNING - hi error
+2025-08-18 22:05:23,401 - WARNING - 'text_preprocessing' object has no attribute 'folder_path'hi the error is here
+2025-08-18 22:05:23,403 - WARNING - 'audio_model' object has no attribute 'cleaned'
+2025-08-18 22:05:23,404 - WARNING - [Errno 22] Invalid argument: 'output/audio\\run_2025-08-18 22:05:21.413630_result.txt'
+2025-08-18 22:12:43,953 - WARNING - join() got an unexpected keyword argument 'exist_ok'
+2025-08-18 22:12:43,969 - WARNING - hi error
+2025-08-18 22:12:43,969 - WARNING - 'text_preprocessing' object has no attribute 'folder_path'hi the error is here
+2025-08-18 22:12:43,970 - WARNING - 'audio_model' object has no attribute 'cleaned'
+2025-08-18 22:14:12,423 - WARNING - hi error
+2025-08-18 22:14:12,424 - WARNING - 'text_preprocessing' object has no attribute 'folder_path'hi the error is here
+2025-08-18 22:14:12,425 - WARNING - 'audio_model' object has no attribute 'cleaned'
+2025-08-18 22:14:12,425 - WARNING - [Errno 22] Invalid argument: 'output/audio\\run_2025-08-18 22:14:09.959266_result.txt'
+2025-08-18 22:16:55,658 - WARNING - hi error
+2025-08-18 22:16:55,658 - WARNING - 'text_preprocessing' object has no attribute 'folder_path'hi the error is here
+2025-08-18 22:16:55,659 - WARNING - 'audio_model' object has no attribute 'cleaned'
+2025-08-18 22:16:55,660 - WARNING - [Errno 22] Invalid argument: 'output/audio\\run_2025-08-18 22:16:53.434205_result.txt'
+2025-08-18 22:17:30,364 - WARNING - hi error
+2025-08-18 22:17:30,365 - WARNING - 'text_preprocessing' object has no attribute 'folder_path'hi the error is here
+2025-08-18 22:17:30,365 - WARNING - 'audio_model' object has no attribute 'cleaned'
+2025-08-18 22:17:30,366 - WARNING - [Errno 22] Invalid argument: 'output/audio\\run_2025-08-18 22:17:28.203241_result.txt'
+2025-08-18 22:20:11,114 - WARNING - Preprocessing failed: 'text_preprocessing' object has no attribute 'folder_path'
+2025-08-18 22:20:11,715 - WARNING - Saving result failed: [Errno 22] Invalid argument: 'output/audio\\run_2025-08-18 22:20:07.256380_result.txt'
+2025-08-18 22:26:54,155 - WARNING - hi error
+2025-08-18 22:26:54,156 - WARNING - 'text_preprocessing' object has no attribute 'folder_path'hi the error is here
+2025-08-18 22:26:54,157 - WARNING - 'audio_model' object has no attribute 'cleaned'
+2025-08-18 22:26:54,158 - WARNING - [Errno 22] Invalid argument: 'output/audio\\run_2025-08-18 22:26:52.429546_result.txt'
+2025-08-18 22:31:48,313 - WARNING - Preprocessing failed: 'text_preprocessing' object has no attribute 'folder_path'
+2025-08-18 22:31:48,886 - WARNING - Saving result failed: [Errno 22] Invalid argument: 'output/audio\\run_2025-08-18 22:31:46.426193_result.txt'

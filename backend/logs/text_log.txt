@@ -1,0 +1,93 @@
+2025-08-18 19:17:42,320 - WARNING - 'text_data' object has no attribute 'get_folder_path'
+2025-08-18 19:17:42,320 - WARNING - 'text_preprocessing' object has no attribute 'folder_path'
+2025-08-18 19:17:42,321 - WARNING - 'text_model' object has no attribute 'cleaned'
+2025-08-18 19:17:42,321 - WARNING - 'text_model' object has no attribute 'result'
+2025-08-18 19:19:35,763 - WARNING - 'text_data' object has no attribute 'get_folder_path'
+2025-08-18 19:19:35,763 - WARNING - 'text_preprocessing' object has no attribute 'folder_path'
+2025-08-18 19:19:35,764 - WARNING - 'text_model' object has no attribute 'cleaned'
+2025-08-18 19:19:35,764 - WARNING - 'text_model' object has no attribute 'result'
+2025-08-18 19:23:39,924 - WARNING - text_data.get_folder_path() takes 0 positional arguments but 1 was given
+2025-08-18 19:23:39,926 - WARNING - 'text_preprocessing' object has no attribute 'folder_path'
+2025-08-18 19:23:39,927 - WARNING - 'text_model' object has no attribute 'cleaned'
+2025-08-18 19:23:39,927 - WARNING - 'text_model' object has no attribute 'result'
+2025-08-18 21:09:38,724 - WARNING - text_data.get_folder_path() takes 0 positional arguments but 1 was given
+2025-08-18 21:09:38,724 - WARNING - 'text_preprocessing' object has no attribute 'folder_path'
+2025-08-18 21:09:38,725 - WARNING - 'text_model' object has no attribute 'cleaned'
+2025-08-18 21:09:38,725 - WARNING - 'text_model' object has no attribute 'result'
+2025-08-18 21:11:21,008 - WARNING - [Errno 22] Invalid argument: 'output/text\\run_2025-08-18 21:11:18.283743_result.txt'
+2025-08-18 21:11:27,258 - WARNING - [Errno 22] Invalid argument: 'output/text\\run_2025-08-18 21:11:24.984738_result.txt'
+2025-08-18 21:13:52,867 - WARNING - 'audio_data' object has no attribute 'get_folder_path'
+2025-08-18 21:17:20,059 - WARNING - 'audio_data' object has no attribute 'get_folder_path'
+2025-08-18 21:19:06,289 - WARNING - 'audio_data' object has no attribute 'get_folder_path'
+2025-08-18 21:20:45,996 - WARNING - 'audio_data' object has no attribute 'get_folder_path'
+2025-08-18 21:22:59,928 - WARNING - 'audio_data' object has no attribute 'get_folder_path'
+2025-08-18 21:25:05,254 - WARNING - audio_data.get_folder_path() takes 0 positional arguments but 1 was given
+2025-08-18 21:26:32,578 - WARNING - audio_data.get_folder_path() takes 0 positional arguments but 1 was given
+2025-08-18 21:47:11,236 - WARNING - audio_data.get_folder_path() takes 0 positional arguments but 1 was given
+2025-08-18 21:48:49,525 - WARNING - audio_data.get_folder_path() takes 0 positional arguments but 1 was given
+2025-08-18 21:50:52,332 - WARNING - [Errno 22] Invalid argument: 'output/text\\run_2025-08-18 21:50:49.753527_result.txt'
+2025-08-18 21:51:08,890 - WARNING - [Errno 22] Invalid argument: 'output/text\\run_2025-08-18 21:51:06.901010_result.txt'
+2025-08-18 21:51:27,744 - WARNING - audio_data.get_folder_path() takes 0 positional arguments but 1 was given
+2025-08-18 21:52:57,011 - WARNING - audio_data.get_folder_path() takes 0 positional arguments but 1 was given
+2025-08-18 21:54:53,752 - WARNING - audio_data.get_folder_path() takes 0 positional arguments but 1 was given
+2025-08-18 21:59:09,759 - WARNING - audio_data.get_folder_path() takes 0 positional arguments but 1 was given
+2025-08-18 22:05:23,400 - WARNING - audio_data.get_folder_path() takes 0 positional arguments but 1 was given
+2025-08-18 22:12:43,967 - WARNING - audio_data.get_folder_path() takes 0 positional arguments but 1 was given
+2025-08-18 22:14:12,423 - WARNING - audio_data.get_folder_path() takes 0 positional arguments but 1 was given
+2025-08-18 22:16:55,657 - WARNING - audio_data.get_folder_path() takes 0 positional arguments but 1 was given
+2025-08-18 22:17:30,364 - WARNING - audio_data.get_folder_path() takes 0 positional arguments but 1 was given
+2025-08-18 22:20:11,114 - WARNING - audio_data.get_folder_path() takes 0 positional arguments but 1 was given
+2025-08-18 22:26:54,155 - WARNING - audio_data.get_folder_path() takes 0 positional arguments but 1 was given
+2025-08-18 22:31:48,312 - WARNING - audio_data.get_folder_path() takes 0 positional arguments but 1 was given
+2026-01-15 22:27:09,638 - WARNING - Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-01-15 22:27:09,638 - WARNING - 'text_model' object has no attribute 'result'
+2026-01-15 22:27:50,795 - WARNING - Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-01-15 22:27:50,795 - WARNING - 'text_model' object has no attribute 'result'
+2026-01-15 22:29:53,068 - WARNING - Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-01-15 22:29:53,068 - WARNING - 'text_model' object has no attribute 'result'
+2026-01-15 22:29:55,822 - WARNING - Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-01-15 22:29:55,822 - WARNING - 'text_model' object has no attribute 'result'
+2026-01-15 22:30:35,663 - WARNING - Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-01-15 22:30:35,663 - WARNING - 'text_model' object has no attribute 'result'
+2026-01-15 22:33:25,673 - WARNING - Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-01-15 22:33:25,673 - WARNING - 'text_model' object has no attribute 'result'
+2026-01-15 22:34:58,515 - WARNING - Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-01-15 22:34:58,515 - WARNING - 'text_model' object has no attribute 'result'
+2026-01-15 22:35:38,509 - WARNING - Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-01-15 22:35:38,509 - WARNING - 'text_model' object has no attribute 'result'
+2026-01-15 22:38:13,776 - WARNING - Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-01-15 22:38:13,792 - WARNING - 'text_model' object has no attribute 'result'
+2026-01-15 22:39:30,704 - WARNING - [Errno 22] Invalid argument: 'output\text\\run_2026-01-15 22:39:29.537350_result.txt'
+2026-01-15 22:40:18,319 - WARNING - [Errno 22] Invalid argument: 'output\text\\run_2026-01-15 22:40:16.681276_result.txt'
+2026-01-15 22:41:13,022 - WARNING - [Errno 22] Invalid argument: 'output\text\\run_2026-01-15 22:41:12.286657_result.txt'
+2026-01-15 22:41:20,493 - WARNING - [Errno 22] Invalid argument: 'output\text\\run_2026-01-15 22:41:20.057445_result.txt'
+2026-01-15 22:41:22,789 - WARNING - [Errno 22] Invalid argument: 'output\text\\run_2026-01-15 22:41:21.922249_result.txt'
+2026-01-15 22:41:24,819 - WARNING - [Errno 22] Invalid argument: 'output\text\\run_2026-01-15 22:41:22.769373_result.txt'
+2026-01-15 22:41:44,888 - WARNING - [Errno 22] Invalid argument: 'output\text\\run_2026-01-15 22:41:44.182847_result.txt'
+2026-01-15 22:43:42,361 - WARNING - [Errno 22] Invalid argument: 'output\text\\run_2026-01-15 22:43:41.880688_result.txt'
+2026-01-15 22:43:46,480 - WARNING - [Errno 22] Invalid argument: 'output\text\\run_2026-01-15 22:43:45.563764_result.txt'
+2026-01-15 22:43:48,379 - WARNING - [Errno 22] Invalid argument: 'output\text\\run_2026-01-15 22:43:47.233694_result.txt'
+2026-01-15 22:43:50,095 - WARNING - [Errno 22] Invalid argument: 'output\text\\run_2026-01-15 22:43:49.080195_result.txt'
+2026-01-16 10:20:04,414 - WARNING - [Errno 22] Invalid argument: 'output\text\\run_2026-01-16 10:20:03.734096_result.txt'
+2026-01-16 10:20:07,532 - WARNING - [Errno 22] Invalid argument: 'output\text\\run_2026-01-16 10:20:06.278991_result.txt'
+2026-01-16 10:20:08,458 - WARNING - [Errno 22] Invalid argument: 'output\text\\run_2026-01-16 10:20:08.067550_result.txt'
+2026-01-16 10:20:09,730 - WARNING - [Errno 22] Invalid argument: 'output\text\\run_2026-01-16 10:20:09.323672_result.txt'
+2026-01-16 10:20:10,894 - WARNING - [Errno 22] Invalid argument: 'output\text\\run_2026-01-16 10:20:10.511615_result.txt'
+2026-01-16 10:20:12,009 - WARNING - [Errno 22] Invalid argument: 'output\text\\run_2026-01-16 10:20:11.580294_result.txt'
+2026-01-16 10:20:13,457 - WARNING - [Errno 22] Invalid argument: 'output\text\\run_2026-01-16 10:20:12.985369_result.txt'
+2026-01-16 10:20:51,330 - WARNING - [Errno 22] Invalid argument: 'output\text\\run_2026-01-16 10:20:50.958683_result.txt'
+2026-01-16 10:20:52,624 - WARNING - [Errno 22] Invalid argument: 'output\text\\run_2026-01-16 10:20:52.198218_result.txt'
+2026-01-16 10:20:53,534 - WARNING - [Errno 22] Invalid argument: 'output\text\\run_2026-01-16 10:20:53.167813_result.txt'
+2026-01-16 10:20:54,037 - WARNING - [Errno 22] Invalid argument: 'output\text\\run_2026-01-16 10:20:53.484763_result.txt'
+2026-01-16 10:20:54,186 - WARNING - [Errno 22] Invalid argument: 'output\text\\run_2026-01-16 10:20:53.723056_result.txt'
+2026-01-16 10:20:54,479 - WARNING - [Errno 22] Invalid argument: 'output\text\\run_2026-01-16 10:20:53.819035_result.txt'
+2026-01-16 10:20:55,006 - WARNING - [Errno 22] Invalid argument: 'output\text\\run_2026-01-16 10:20:53.978763_result.txt'
+2026-01-16 10:20:55,586 - WARNING - [Errno 22] Invalid argument: 'output\text\\run_2026-01-16 10:20:54.850578_result.txt'
+2026-01-16 10:20:56,702 - WARNING - [Errno 22] Invalid argument: 'output\text\\run_2026-01-16 10:20:56.305580_result.txt'
+2026-01-16 10:21:10,862 - WARNING - [Errno 22] Invalid argument: 'output\text\\run_2026-01-16 10:21:09.022730_result.txt'
+2026-01-16 10:21:12,949 - WARNING - [Errno 22] Invalid argument: 'output\text\\run_2026-01-16 10:21:11.719758_result.txt'
+2026-01-16 10:21:25,381 - WARNING - [Errno 22] Invalid argument: 'output\text\\run_2026-01-16 10:21:24.990651_result.txt'
+2026-01-16 10:21:27,314 - WARNING - [Errno 22] Invalid argument: 'output\text\\run_2026-01-16 10:21:26.450100_result.txt'
+2026-01-16 10:21:28,808 - WARNING - [Errno 22] Invalid argument: 'output\text\\run_2026-01-16 10:21:27.967317_result.txt'
+2026-01-16 11:07:53,158 - WARNING - [Errno 22] Invalid argument: 'output\text\\run_2026-01-16 11:07:52.031125_result.txt'
+2026-01-16 11:08:13,547 - WARNING - [Errno 22] Invalid argument: 'output\text\\run_2026-01-16 11:08:13.092884_result.txt'
